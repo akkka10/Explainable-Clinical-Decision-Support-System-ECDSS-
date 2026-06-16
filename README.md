@@ -15,7 +15,7 @@ This system bridges the gap between raw predictive accuracy and clinical interpr
 * **Risk Prediction Engine:** Optimized classification pipeline trained on historical clinical metrics.
 * **GenAI Interpretability:** Automated generation of diagnostic summaries and clinical explanations using the **Llama API**.
 * **Interactive Dashboard:** Modern responsive user interface for entering diagnostics and visualizing risk breakdowns.
-* **Secure Asynchronous Backend:** Decoupled RESTful API microservices architecture built with Flask.
+* **Secure Asynchronous Backend:** Decoupled RESTful API microservices architecture built with fast.
 
 ---
 
@@ -24,7 +24,7 @@ This system bridges the gap between raw predictive accuracy and clinical interpr
 | Layer | Technology | Description |
 | :--- | :--- | :--- |
 | **Frontend** | React.js, TailwindCSS, Axios | Responsive UI & State Management |
-| **Backend** | Flask (Python), Flask-CORS | Core REST API Architecture |
+| **Backend** | Fast-api (Python), Flask-CORS | Core REST API Architecture |
 | **AI / Core** | Llama API, Scikit-Learn,TensorFlow, Pandas | LLM Interpretation & ML Inference Pipeline |
 | **Dataset** | Pima Indians Diabetes Dataset | Clinical Data Source (NIH/UCI Repository) |
 
@@ -33,7 +33,7 @@ This system bridges the gap between raw predictive accuracy and clinical interpr
 ## 🧬 System Architecture
 
 ```text
-[React Frontend] <---> [Flask API Backend] <---> [TensorFlow ML Model]
+[React Frontend] <---> [Fast API Backend] <---> [TensorFlow ML Model]
                                     ^
                                     |
                                     v
