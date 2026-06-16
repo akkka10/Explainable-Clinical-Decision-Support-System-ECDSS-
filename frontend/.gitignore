@@ -1,0 +1,27 @@
+x-ai/
+temp/
+**/temp
+
+# ignore all the datasests
+**/data/
+**/datasets/
+
+# blocking all the models
+**/*.pkl
+
+# virtual enviornment'
+venv/
+env/
+.env/
+.venv/
+
+# --- Jupyter Notebook Caches ---
+.ipynb_checkpoints/
+checkpoint_*.ipynb
+
+# --- IDE Configs ---
+.vscode/
+.idea/why
+
+# datsets
+*.csv

@@ -1,0 +1,51 @@
+**/data
+/data
+
+**/_pycache_/
+C:/x-ai/Backend/__pycache__/
+
+**/*.h5
+**/*.pkl
+
+**/models
+C:/ai/ackend/_pycache__/
+C:/x-ai/frontend/node_modules/
+
+**/*.json
+**/.env
+.env
+
+
+# --- Python Junk ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+
+# --- Jupyter Notebook Caches ---
+.ipynb_checkpoints/
+checkpoint_*.ipynb
+
+# --- IDE Configs ---
+.vscode/
+.idea/why
+
+
+# ignore all the datasests
+**/data/
+**/datasets/
+
+# blocking all the models
+**/*.pkl
+Backend/.env/
+
+**./.env
+# Ignore real secrets
+**/Backend/.env
+
+C:/x-ai/frontend/node_modules/
+**/node_mudlus/
+
+node_modules/
