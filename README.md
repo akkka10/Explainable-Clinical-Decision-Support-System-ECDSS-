@@ -3,7 +3,7 @@
 ### 🎓 Final Year Major Project
 An intelligent, full-stack healthcare application that predicts diabetes risk factors using the **Pima Indians Diabetes Dataset** and provides natural language medical insights powered by the **Llama API**.
 
-<img src="assests\GIF x-ai.gif" alt="Application Demo" width="100%" />
+<img src="/assests/GIF x-ai.gif" alt="Application Demo" width="100%" />
 
 ---
 
